@@ -1,0 +1,145 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/oleg/pro/2048
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64839
+Successfully changed project path to: /Users/oleg/pro/2048
+/Users/oleg/pro/2048
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 50.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/oleg/pro/2048/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-17 20:26:08.123 Unity[28168:1502859] Color LCD preferred device: Intel Iris Pro Graphics (low power)
+2021-05-17 20:26:08.123 Unity[28168:1502859] Metal devices available: 1
+2021-05-17 20:26:08.123 Unity[28168:1502859] 0: Intel Iris Pro Graphics (low power)
+2021-05-17 20:26:08.123 Unity[28168:1502859] Using device Intel Iris Pro Graphics (low power)
+Initializing Metal device caps: Intel Iris Pro Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.8f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.005050 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 47.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.992 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001647 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 47.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.478 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.2 MB.
+System memory in use after: 148.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2251.
+Total: 3.584368 ms (FindLiveObjects: 0.248062 ms CreateObjectMapping: 0.126643 ms MarkObjects: 2.925198 ms  DeleteObjects: 0.283194 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs
+  artifactKey: Guid(e6bb467942ae24e7fb74ebaec69f4d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(e6bb467942ae24e7fb74ebaec69f4d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf4d48e52e52de6abf0b73d63b3b033') in 0.005932 seconds
+  Import took 0.009667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.421385 seconds.
+  path: Assets/Prefabs/Image.prefab
+  artifactKey: Guid(f85611675c41542288f3b581399f27a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Image.prefab using Guid(f85611675c41542288f3b581399f27a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e7b01dc378a48ec33f51db2fdf866a') in 1.683586 seconds
+  Import took 1.688628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8178.499478 seconds.
+  path: Assets/Prefabs/FillPrefab.prefab
+  artifactKey: Guid(9f0c5829fca4a49eaa36a75e37700d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FillPrefab.prefab using Guid(9f0c5829fca4a49eaa36a75e37700d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91acb1b4f050cae68ba3aa8d6fbe895f') in 0.021007 seconds
+  Import took 0.025866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/Prefabs/FillPrefab.prefab
+  artifactKey: Guid(9f0c5829fca4a49eaa36a75e37700d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FillPrefab.prefab using Guid(9f0c5829fca4a49eaa36a75e37700d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91acb1b4f050cae68ba3aa8d6fbe895f') in 0.004498 seconds
+  Import took 0.007771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.720089 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(b8dae524657684efdb787762b7451982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(b8dae524657684efdb787762b7451982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b218dcd03ee063c75c2f3708e5188e') in 0.003506 seconds
+  Import took 0.007601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(b8dae524657684efdb787762b7451982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(b8dae524657684efdb787762b7451982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b218dcd03ee063c75c2f3708e5188e') in 0.001900 seconds
+  Import took 0.005157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.734138 seconds.
+  path: Assets/Scripts/GameController2048.cs
+  artifactKey: Guid(75dc6f39cc8bf414dbf54a6a72f15902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController2048.cs using Guid(75dc6f39cc8bf414dbf54a6a72f15902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17c4bb4a3323d3e6f53abd3d4e59987') in 0.398433 seconds
+  Import took 0.402602 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002591 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.2 MB.
+System memory in use after: 157.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2258.
+Total: 2.853235 ms (FindLiveObjects: 0.279774 ms CreateObjectMapping: 0.151812 ms MarkObjects: 2.294367 ms  DeleteObjects: 0.126254 ms)
+
