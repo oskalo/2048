@@ -15,18 +15,36 @@ public class GameController2048 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space)){
+            SpawnFill();
+        }
     }
 
     public void SpawnFill()
     {
-        float chance = Random.Range(of, 1f);
-        if (chance <.2f)
-        {
+        int whichSpawn = Random.Range(0, allCells.Length);
+        if (allCells[whichSpawn].childCount != 0){
+            Debug.Log(allCells[whichSpawn].name);
+            SpawnFill();
             return;
-        } else if (chance < 8.f)
+        }
+
+        float chance = Random.Range(0f, 1f);
+        Debug.Log(chance);
+        if (chance <.2f){
+            return;
+        } else if (chance <.8f){
+            
+            GameObject tempFill = Instantiate(fillPrefab, allCells[whichSpawn]);
+            Debug.Log(2);
+            Fill2048 tempFillComp = tempFill.GetComponent<Fill2048>();
+            tempFillComp.FillValueUpdate(2);
+        } else
         {
-            int whichSpawn = Random.Range(0, allCells.Lenght);
+            GameObject tempFill = Instantiate(fillPrefab, allCells[whichSpawn]);
+            Debug.Log(4);
+            Fill2048 tempFillComp = tempFill.GetComponent<Fill2048>();
+            tempFillComp.FillValueUpdate(4);
         }
     }
 }
