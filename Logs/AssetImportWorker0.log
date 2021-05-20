@@ -623,3 +623,143 @@ Received Import Request.
 Start importing Assets/Scripts/GameController2048.cs using Guid(75dc6f39cc8bf414dbf54a6a72f15902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67647f08acceb78c60b01f6c00e15042') in 0.017217 seconds
   Import took 0.020887 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 59775.023068 seconds.
+  path: Assets/Scripts/GameController2048.cs
+  artifactKey: Guid(75dc6f39cc8bf414dbf54a6a72f15902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController2048.cs using Guid(75dc6f39cc8bf414dbf54a6a72f15902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca97a7bfeedc1d977f2ff19659addedb') in 0.040949 seconds
+  Import took 0.198348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.896920 seconds.
+  path: Assets/Scripts/GameController2048.cs
+  artifactKey: Guid(75dc6f39cc8bf414dbf54a6a72f15902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController2048.cs using Guid(75dc6f39cc8bf414dbf54a6a72f15902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5590b94b74314457bebd6b892d76a2c1') in 0.002010 seconds
+  Import took 0.006060 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001508 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.815 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.9 MB.
+System memory in use after: 160.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2328.
+Total: 2.978480 ms (FindLiveObjects: 0.324596 ms CreateObjectMapping: 0.103619 ms MarkObjects: 2.398057 ms  DeleteObjects: 0.151085 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.569213 seconds.
+  path: Assets/Scripts/GameController2048.cs
+  artifactKey: Guid(75dc6f39cc8bf414dbf54a6a72f15902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController2048.cs using Guid(75dc6f39cc8bf414dbf54a6a72f15902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04f3b8eb253a7b69232a262f14ce8a9') in 0.006006 seconds
+  Import took 0.009924 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000756 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.407 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.1 MB.
+System memory in use after: 161.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2332.
+Total: 2.990797 ms (FindLiveObjects: 0.301341 ms CreateObjectMapping: 0.158811 ms MarkObjects: 2.413311 ms  DeleteObjects: 0.116232 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 257.304211 seconds.
+  path: Assets/Scripts/GameController2048.cs
+  artifactKey: Guid(75dc6f39cc8bf414dbf54a6a72f15902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController2048.cs using Guid(75dc6f39cc8bf414dbf54a6a72f15902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e55e20f67d03980b01ba036b7cd4bb') in 0.005265 seconds
+  Import took 0.008755 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000988 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.401 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.3 MB.
+System memory in use after: 161.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2336.
+Total: 2.782146 ms (FindLiveObjects: 0.240684 ms CreateObjectMapping: 0.097600 ms MarkObjects: 2.309942 ms  DeleteObjects: 0.132764 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 756.877939 seconds.
+  path: Assets/Scripts/Cell2048.cs
+  artifactKey: Guid(86b4932486c284451b9f19e6222fbb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cell2048.cs using Guid(86b4932486c284451b9f19e6222fbb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ac2286e3d0218b023dc57205bb4a7a') in 0.006364 seconds
+  Import took 0.010793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027911 seconds.
+  path: Assets/Scripts/Cell2048.cs
+  artifactKey: Guid(86b4932486c284451b9f19e6222fbb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cell2048.cs using Guid(86b4932486c284451b9f19e6222fbb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ac2286e3d0218b023dc57205bb4a7a') in 0.001780 seconds
+  Import took 0.007662 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001488 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.523 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.5 MB.
+System memory in use after: 161.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2340.
+Total: 2.555360 ms (FindLiveObjects: 0.242477 ms CreateObjectMapping: 0.084342 ms MarkObjects: 2.123693 ms  DeleteObjects: 0.103868 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50302.765926 seconds.
+  path: Assets/Scripts/Cell2048.cs
+  artifactKey: Guid(86b4932486c284451b9f19e6222fbb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cell2048.cs using Guid(86b4932486c284451b9f19e6222fbb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6545b18faeeffada5fbea7905929380') in 0.199585 seconds
+  Import took 0.390370 seconds .
+
