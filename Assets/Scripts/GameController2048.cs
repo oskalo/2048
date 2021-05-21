@@ -8,7 +8,7 @@ public class GameController2048 : MonoBehaviour
     [SerializeField] GameObject fillPrefab;
     [SerializeField] Transform[] allCells;
 
-public static Action<string> slide;
+    public static Action<string> slide;
     void Start()
     {
         
@@ -53,14 +53,14 @@ public static Action<string> slide;
             GameObject tempFill = Instantiate(fillPrefab, allCells[whichSpawn]);
             Debug.Log(2);
             Fill2048 tempFillComp = tempFill.GetComponent<Fill2048>();
-            allCells[whichSpawn].GetComponent<Cell2048>.fill = tempFillComp;
+            allCells[whichSpawn].GetComponent<Cell2048>().fill = tempFillComp;
             tempFillComp.FillValueUpdate(2);
         } else
         {
             GameObject tempFill = Instantiate(fillPrefab, allCells[whichSpawn]);
             Debug.Log(4);
             Fill2048 tempFillComp = tempFill.GetComponent<Fill2048>();
-            allCells[whichSpawn].GetComponent<Cell2048>.fill = tempFillComp;
+            allCells[whichSpawn].GetComponent<Cell2048>().fill = tempFillComp;
             tempFillComp.FillValueUpdate(4);
         }
     }
